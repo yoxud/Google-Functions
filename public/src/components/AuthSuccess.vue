@@ -1,9 +1,9 @@
 <template> 
   <div> 
     <h1>Signup succeeded</h1> 
-    <button @click=’logOut’>Log out</button> 
+    <button @click='logOut'>Log out</button> 
     <hr> 
-    <img :src=”photo” style=”height: 120px”> <br> 
+    <img :src="photo" style="height: 120px"> <br> 
     <p>{{name}}</p> 
     <p>{{email}}</p> 
     <p>{{userId}}</p> 
@@ -13,14 +13,14 @@
 </template>
 
 <script>
-import firebase from ‘firebase’
+import firebase from 'firebase'
 export default {
  data(){
    return {
-     photo: ‘’,
-     userId: ‘’,
-     name: ‘’,
-     email: ‘’,
+     photo: '',
+     userId: '',
+     name: '',
+     email: '',
      user: {}
    }
  },
