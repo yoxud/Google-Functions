@@ -13,22 +13,10 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Auth',
-      component: Auth
-    },
+    { path: '/', name: 'Auth', component: Auth },
     { path: '/auth', component: Auth },
     { path: '/success', component: AuthSuccess },
-    {
-      path: '/page-1',
-      name: 'Page 1',
-      component: Page1
-    },
-    {
-      path: '**',
-      name: 'PageNotFound',
-      component: PageNotFound
-    }
+    { path: '/page-1', name: 'Page 1', component: Page1 },
+    { path: '**', name: 'PageNotFound', component: PageNotFound }
   ]
 })

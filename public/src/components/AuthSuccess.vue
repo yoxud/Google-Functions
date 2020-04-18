@@ -25,7 +25,7 @@ export default {
    }
  },
  created() { 
-  this.user = firebase.auth().currentUser; 
+  this.user = firebase.auth().currentUser;
   if(this.user) { 
     this.name = this.user.displayName; 
     this.email = this.user.email; 

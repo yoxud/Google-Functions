@@ -4,7 +4,7 @@
 <script>
 import firebase from 'firebase';
 import * as firebaseui from "firebaseui";
-import {config} from '../firebaseConfig';
+//import {config} from '../firebaseConfig';
 export default {
   name: 'auth',
   mounted() {
