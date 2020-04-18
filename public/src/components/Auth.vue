@@ -3,7 +3,7 @@
 </template>
 <script>
 import firebase from 'firebase';
-import firebaseui from 'firebaseui';
+import * as firebaseui from "firebaseui";
 import {config} from '../firebaseConfig';
 export default {
   name: 'auth',

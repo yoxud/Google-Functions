@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router'
 import VueRouter from 'vue-router'
 import firebase from 'firebase'
-import firebaseui from 'firebaseui';
 import {config} from './firebaseConfig'
 
 Vue.use(VueRouter)
