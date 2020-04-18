@@ -1,7 +1,7 @@
 export const config = { 
-    apiKey: "AIzaSyCX-r4B1Hs8uNaySWZOdmUP4a9DS_C2OFE", 
-    authDomain: "medium-demo.firebaseapp.com", 
-    databaseURL: "https://medium-demo.firebaseio.com", 
-    storageBucket: "medium-demo.appspot.com", 
-    messagingSenderId: "1039269062579"
+    apiKey: "AIzaSyBrjLi1KuaK1vZWi8nljbXW4ifD7VvhTlA", 
+    authDomain: "notif1640.firebaseapp.com", 
+    databaseURL: "https://notif1640.firebaseio.com", 
+    storageBucket: "gs://notif1640.appspot.com", 
+    messagingSenderId: "758136940228"
   };

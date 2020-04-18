@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
 import VueRouter from 'vue-router'
+import router from './router'
+import App from './App.vue'
 import firebase from 'firebase'
 import {config} from './firebaseConfig'
 
@@ -21,7 +21,5 @@ new Vue({
          });
         },
   el: '#app',
-  //components: { App },
-  //template: '<App/>',
   render: h => h(App)
 })

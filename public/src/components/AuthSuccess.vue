@@ -3,17 +3,20 @@
     <h1>Signup succeeded</h1> 
     <button @click='logOut'>Log out</button> 
     <hr> 
+    <!-- bug data shown then retrieved
     <img :src="photo" style="height: 120px"> <br> 
     <p>{{name}}</p> 
     <p>{{email}}</p> 
     <p>{{userId}}</p> 
     <hr> 
     <pre>{{user}}</pre> 
+    -->
   </div>
 </template>
 
 <script>
-import * as firebaseui from "firebaseui";
+import firebase from 'firebase'
+//import * as firebaseui from "firebaseui";
 export default {
  data(){
    return {
