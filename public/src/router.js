@@ -3,7 +3,6 @@ import Router from 'vue-router'
 // Page content
 import Page1 from '@/components/Page1'
 import Home from '@/components/Home'
-import Login from '@/components/Login'
 import Auth from '@/components/Auth.vue';
 import AuthSuccess from '@/components/AuthSuccess.vue';
 
@@ -26,11 +25,6 @@ export default new Router({
       name: 'Page 1',
       component: Page1
     },
-    {
-        path: '/login',
-        name: 'Login',
-        component: Login
-      },
     {
       path: '**',
       name: 'PageNotFound',
